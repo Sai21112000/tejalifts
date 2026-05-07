@@ -26,9 +26,8 @@ export const siteContent = {
       { value: '430 kg', label: 'Competition Total' },
       { value: '2x', label: 'Podium Finishes' },
     ],
-    portraitUrl:
-      'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg',
-    portraitAlt: 'Athlete training with a loaded barbell',
+    portraitUrl: 'images/teja-strength-portrait.jpg',
+    portraitAlt: 'Sai Teja Vaidya setting up for a competition deadlift',
     location: 'India',
   },
 
@@ -80,6 +79,12 @@ export const siteContent = {
           'Competed twice in the under-74 kg class, placed 3rd in both meets, and totaled 430 kg.',
       },
     ],
+    image: {
+      src: 'images/teja-lift-setup.jpg',
+      alt: 'Sai Teja preparing for a squat attempt on the platform',
+      caption:
+        'The platform taught me patience: every rebuild starts before the lift, when you choose structure over panic.',
+    },
   },
 
   services: {
@@ -163,6 +168,11 @@ export const siteContent = {
         context: 'Competition total in the under-74 kg class, 3rd place in two meets.',
       },
     ],
+    image: {
+      src: 'images/teja-podium.jpg',
+      alt: 'Sai Teja standing on the podium after a powerlifting meet',
+      caption: 'A podium finish after rebuilding through setbacks and inconsistent seasons.',
+    },
   },
 
   results: {
@@ -180,6 +190,12 @@ export const siteContent = {
     body:
       'I am still early in the sport, but I take pride in doing things properly \u2014 showing up, staying patient, and building strength the honest way.',
     cta: { label: 'Talk to Me About Training', href: '#contact' },
+    image: {
+      src: 'images/meet-day-team.jpg',
+      alt: 'Powerlifting meet day group photo with Sai Teja and other lifters',
+      caption:
+        'Meet day reminds me that strength is personal, but the environment around you matters.',
+    },
   },
 
   approach: {
@@ -208,6 +224,12 @@ export const siteContent = {
           'If you are coming back from inconsistency, stress, mobility issues, or setbacks, I understand that phase personally.',
       },
     ],
+    image: {
+      src: 'images/meet-day-coach.jpg',
+      alt: 'Sai Teja after a powerlifting meet with another athlete',
+      caption:
+        'Coaching starts with listening, then building a plan that fits the person in front of me.',
+    },
   },
 
   artifacts: {
@@ -221,7 +243,7 @@ export const siteContent = {
           'A 4-day beginner/intermediate structure with upper, lower, full-body strength, and conditioning days.',
         buttonLabel: 'See Program Sample',
         previewLabel: 'Program PDF Preview',
-        href: 'guides/training-program-sample.pdf',
+        href: 'guides/training-program-sample-v2.pdf',
         bullets: [
           'Weekly split with exercise order',
           'Sets, reps, rest times, and RPE targets',
@@ -235,7 +257,7 @@ export const siteContent = {
           'The decision rules I use to move weights up, hold steady, deload, or adjust after missed sessions.',
         buttonLabel: 'See Progression Logic',
         previewLabel: 'Progression Plan Preview',
-        href: 'guides/progression-logic.pdf',
+        href: 'guides/progression-logic-v2.pdf',
         bullets: [
           'Double progression for main lifts',
           'RPE-based load adjustments',
@@ -249,7 +271,7 @@ export const siteContent = {
           'A practical nutrition guide for protein targets, calorie awareness, meal structure, and food swaps.',
         buttonLabel: 'See Nutrition Guide',
         previewLabel: 'Nutrition Guide Preview',
-        href: 'guides/nutrition-guide.pdf',
+        href: 'guides/nutrition-guide-v2.pdf',
         bullets: [
           'Protein target by bodyweight',
           'Indian-friendly high-protein foods',
@@ -301,7 +323,7 @@ export const siteContent = {
     guideTitle: 'Protein & Calories Cheat Sheet',
     guideSubtitle: 'Filled-in PDF, free download',
     buttonLabel: 'Download the Guide',
-    guideHref: 'guides/protein-calories-cheat-sheet.pdf',
+    guideHref: 'guides/protein-calories-cheat-sheet-v2.pdf',
   },
 
   faq: {

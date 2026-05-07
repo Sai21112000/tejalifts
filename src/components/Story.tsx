@@ -1,15 +1,18 @@
 type TimelineItem = { title: string; period: string; description: string };
+type ImageBlock = { src: string; alt: string; caption: string };
 
 export default function Story({
   sectionLabel,
   title,
   paragraphs,
   timeline,
+  image,
 }: {
   sectionLabel: string;
   title: string;
   paragraphs: string[];
   timeline: TimelineItem[];
+  image: ImageBlock;
 }) {
   return (
     <section id="story" className="py-20 md:py-28 bg-white border-y border-stone-200">
@@ -22,6 +25,17 @@ export default function Story({
             <h2 className="mt-4 font-display text-3xl md:text-4xl leading-tight tracking-tight text-stone-900">
               {title}
             </h2>
+            <figure className="mt-8 overflow-hidden rounded-lg border border-stone-200 bg-stone-50">
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="aspect-[4/5] w-full object-cover"
+                loading="lazy"
+              />
+              <figcaption className="p-4 text-sm leading-relaxed text-stone-600">
+                {image.caption}
+              </figcaption>
+            </figure>
           </div>
           <div className="lg:col-span-7 lg:col-start-6 space-y-5 text-stone-700 text-base md:text-lg leading-relaxed">
             {paragraphs.map((p, i) => (

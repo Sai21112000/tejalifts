@@ -2,6 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 type Stat = { label: string; value: string };
 type Cta = { label: string; href: string };
+type ImageBlock = { src: string; alt: string; caption: string };
 
 export default function Results({
   sectionLabel,
@@ -9,12 +10,14 @@ export default function Results({
   stats,
   body,
   cta,
+  image,
 }: {
   sectionLabel: string;
   intro: string;
   stats: Stat[];
   body: string;
   cta: Cta;
+  image: ImageBlock;
 }) {
   return (
     <section id="results" className="py-20 md:py-28 bg-white border-y border-stone-200">
@@ -53,6 +56,17 @@ export default function Results({
           <p className="mt-4 text-xs text-stone-500">
             2025 meet results, under-74 kg weight class.
           </p>
+          <figure className="mt-8 overflow-hidden rounded-lg border border-stone-200 bg-stone-50">
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="aspect-[16/10] w-full object-cover"
+              loading="lazy"
+            />
+            <figcaption className="p-4 text-sm leading-relaxed text-stone-600">
+              {image.caption}
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>

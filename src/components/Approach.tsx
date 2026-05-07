@@ -1,6 +1,7 @@
 import { ClipboardList, Apple, TrendingUp, RotateCcw } from 'lucide-react';
 
 type Card = { title: string; description: string };
+type ImageBlock = { src: string; alt: string; caption: string };
 
 const icons = [ClipboardList, Apple, TrendingUp, RotateCcw];
 
@@ -8,10 +9,12 @@ export default function Approach({
   sectionLabel,
   intro,
   cards,
+  image,
 }: {
   sectionLabel: string;
   intro: string;
   cards: Card[];
+  image: ImageBlock;
 }) {
   return (
     <section id="approach" className="py-20 md:py-28 bg-stone-50">
@@ -47,6 +50,17 @@ export default function Approach({
             );
           })}
         </div>
+        <figure className="mt-12 grid lg:grid-cols-12 overflow-hidden rounded-lg border border-stone-200 bg-white">
+          <img
+            src={image.src}
+            alt={image.alt}
+            className="lg:col-span-7 h-full min-h-[320px] w-full object-cover"
+            loading="lazy"
+          />
+          <figcaption className="lg:col-span-5 p-8 flex items-center text-lg leading-relaxed text-stone-700">
+            {image.caption}
+          </figcaption>
+        </figure>
       </div>
     </section>
   );
