@@ -29,6 +29,7 @@ export const siteContent = {
     portraitUrl:
       'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg',
     portraitAlt: 'Athlete training with a loaded barbell',
+    location: 'India',
   },
 
   story: {
@@ -37,7 +38,7 @@ export const siteContent = {
     paragraphs: [
       'I was a very active kid growing up. Basketball, cricket, and jump rope were a huge part of my life, and movement always felt natural to me. But after COVID and during my bachelor\u2019s years, my health, routine, and body started slipping in a way I could not ignore.',
       'That was the point where I decided to rebuild from the ground up. I started with home workouts and a structured fat-loss phase, taking my bodyweight from 71.5 kg down to 62.5 kg. Later, I joined a gym, focused on body recomposition, and slowly built lean muscle back up to 67.5 kg.',
-      'When I moved to Thailand, life changed again. New stress, new routines, and inconsistency pushed my bodyweight up to around 79\u201380 kg. On top of that, I dealt with knee pain, ankle mobility issues, squat depth problems, hip flexor issues, piriformis syndrome, and QL spasms.',
+      'During a stressful transition, life changed again. New routines, inconsistency, and low structure pushed my bodyweight up to around 79\u201380 kg. On top of that, I dealt with knee pain, ankle mobility issues, squat depth problems, hip flexor issues, piriformis syndrome, and QL spasms.',
       'I rebuilt again through structured training and eventually stepped onto the powerlifting platform. In 2025, I competed twice in the under-74 kg class and placed 3rd in both meets, finishing with a 145 kg squat, 90 kg bench, 195 kg deadlift, and a 430 kg total.',
       'That journey is why I coach the way I do now. I understand fat loss, muscle gain, setbacks, mobility limitations, and what it takes to build yourself back with structure and patience.',
     ],
@@ -62,7 +63,7 @@ export const siteContent = {
       },
       {
         title: 'Setback and Weight Regain',
-        period: 'Thailand Transition',
+        period: 'Routine Disruption',
         description:
           'Weight climbed to 79\u201380 kg during a stressful period with inconsistent routines and changing environments.',
       },
@@ -154,7 +155,7 @@ export const siteContent = {
       {
         label: 'Setback',
         value: '79\u201380 kg',
-        context: 'Regained weight in Thailand, then rebuilt again through consistent training.',
+        context: 'Regained weight during a stressful phase, then rebuilt again through consistent training.',
       },
       {
         label: 'Powerlifting',
@@ -217,23 +218,44 @@ export const siteContent = {
       {
         title: 'Training Program Sample',
         description:
-          'Structured days, clear exercise selection, rep ranges, rest times, and coaching notes to make execution easier.',
+          'A 4-day beginner/intermediate structure with upper, lower, full-body strength, and conditioning days.',
         buttonLabel: 'See Program Sample',
         previewLabel: 'Program PDF Preview',
+        href: 'guides/training-program-sample.pdf',
+        bullets: [
+          'Weekly split with exercise order',
+          'Sets, reps, rest times, and RPE targets',
+          'Warm-up and execution notes',
+          'Simple progression rules for 4 weeks',
+        ],
       },
       {
         title: 'Progression Strategy',
         description:
-          'Progressive overload, deload logic, and practical adjustment rules for missed workouts, fatigue, travel, and setbacks.',
+          'The decision rules I use to move weights up, hold steady, deload, or adjust after missed sessions.',
         buttonLabel: 'See Progression Logic',
         previewLabel: 'Progression Plan Preview',
+        href: 'guides/progression-logic.pdf',
+        bullets: [
+          'Double progression for main lifts',
+          'RPE-based load adjustments',
+          'Missed workout and travel rules',
+          'Deload signs and reset strategy',
+        ],
       },
       {
         title: 'Nutrition Reference',
         description:
-          'Simple high-protein food references, meal ideas, portion guidance, and realistic calorie-aware options.',
+          'A practical nutrition guide for protein targets, calorie awareness, meal structure, and food swaps.',
         buttonLabel: 'See Nutrition Guide',
         previewLabel: 'Nutrition Guide Preview',
+        href: 'guides/nutrition-guide.pdf',
+        bullets: [
+          'Protein target by bodyweight',
+          'Indian-friendly high-protein foods',
+          'Fat loss and lean gain calorie setup',
+          'Simple plate method and meal examples',
+        ],
       },
     ],
     footnote:
@@ -271,15 +293,15 @@ export const siteContent = {
     description:
       'A one-page reference I use with new clients. Protein targets, simple food swaps, and a calorie framework you can actually follow.',
     bullets: [
-      'Daily protein targets by bodyweight',
-      'High-protein foods and serving sizes',
-      'A simple 4-step calorie framework',
-      'No spam, no fluff \u2014 just the page',
+      'Protein targets for 55\u201390 kg bodyweights',
+      'Vegetarian and non-vegetarian high-protein options',
+      'Simple calorie setup for fat loss, maintenance, or lean gain',
+      'Quick meal structure you can use without tracking everything',
     ],
     guideTitle: 'Protein & Calories Cheat Sheet',
-    guideSubtitle: 'One-page PDF, free download',
+    guideSubtitle: 'Filled-in PDF, free download',
     buttonLabel: 'Download the Guide',
-    guideHref: '/guides/protein-calories-cheat-sheet.pdf',
+    guideHref: 'guides/protein-calories-cheat-sheet.pdf',
   },
 
   faq: {
@@ -330,13 +352,21 @@ export const siteContent = {
       'Your biggest challenge right now',
     ],
     buttons: [
-      { label: 'WhatsApp', href: 'https://wa.me/', kind: 'whatsapp' as const },
+      {
+        label: 'WhatsApp',
+        href: 'https://wa.me/919542814377',
+        kind: 'whatsapp' as const,
+      },
       {
         label: 'Instagram',
         href: 'https://instagram.com/tejalifts_',
         kind: 'instagram' as const,
       },
-      { label: 'Email', href: 'mailto:hello@example.com', kind: 'email' as const },
+      {
+        label: 'Email',
+        href: 'mailto:vaidysaiteja143@gmail.com',
+        kind: 'email' as const,
+      },
     ],
   },
 

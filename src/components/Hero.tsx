@@ -12,6 +12,7 @@ export default function Hero({
   trustItems,
   portraitUrl,
   portraitAlt,
+  location,
 }: {
   eyebrow: string;
   title: string;
@@ -21,6 +22,7 @@ export default function Hero({
   trustItems: TrustItem[];
   portraitUrl: string;
   portraitAlt: string;
+  location: string;
 }) {
   return (
     <section id="home" className="pt-28 md:pt-32 pb-16 md:pb-24">
@@ -65,7 +67,7 @@ export default function Hero({
               </div>
               <div className="absolute -bottom-4 -left-4 hidden sm:block bg-stone-50 border border-stone-200 rounded-md px-4 py-3 shadow-sm">
                 <p className="text-xs text-stone-500 uppercase tracking-[0.18em]">Based in</p>
-                <p className="text-sm text-stone-900 font-medium">Thailand</p>
+                <p className="text-sm text-stone-900 font-medium">{location}</p>
               </div>
             </div>
           </div>

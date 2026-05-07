@@ -5,6 +5,8 @@ type Item = {
   description: string;
   buttonLabel: string;
   previewLabel: string;
+  href: string;
+  bullets: string[];
 };
 
 export default function Artifacts({
@@ -50,11 +52,13 @@ export default function Artifacts({
                   <div className="h-2 w-1/2 bg-stone-200 rounded" />
                 </div>
                 <div className="mt-4 space-y-1.5">
-                  {Array.from({ length: 4 }).map((_, i) => (
+                  {a.bullets.map((bullet) => (
                     <div
-                      key={i}
-                      className="h-1.5 bg-stone-100 rounded w-full"
-                    />
+                      key={bullet}
+                      className="rounded bg-stone-100 px-2 py-1 text-[11px] leading-snug text-stone-500"
+                    >
+                      {bullet}
+                    </div>
                   ))}
                 </div>
                 <div className="mt-auto h-2 w-1/3 bg-amber-100 rounded" />
@@ -67,7 +71,10 @@ export default function Artifacts({
                   {a.description}
                 </p>
                 <a
-                  href="#contact"
+                  href={a.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
                   className="mt-5 inline-flex items-center text-sm font-medium text-stone-900 border-b border-stone-300 hover:border-stone-900 pb-0.5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
                 >
                   {a.buttonLabel}
