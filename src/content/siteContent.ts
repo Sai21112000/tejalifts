@@ -1,0 +1,350 @@
+export const siteContent = {
+  nav: {
+    brand: 'Sai Teja Vaidya',
+    links: [
+      { label: 'Story', href: '#story' },
+      { label: 'Services', href: '#services' },
+      { label: 'Results', href: '#results' },
+      { label: 'Approach', href: '#approach' },
+      { label: 'Artifacts', href: '#artifacts' },
+      { label: 'Free Guide', href: '#guide' },
+      { label: 'FAQ', href: '#faq' },
+      { label: 'Contact', href: '#contact' },
+    ],
+  },
+
+  hero: {
+    eyebrow: 'Rebuild. Recompose. Get Stronger.',
+    title:
+      'Rebuild your body with structured training, practical nutrition, and strength-focused coaching.',
+    subtitle:
+      'For beginners and intermediates who want to come back from setbacks, lose fat, rebuild lean muscle, or get genuinely stronger \u2014 without extreme diets or random workouts.',
+    primaryCta: { label: 'Message Me on WhatsApp', href: '#contact' },
+    secondaryCta: { label: 'Read My Story', href: '#story' },
+    trustItems: [
+      { value: '5+ yrs', label: 'Training Experience' },
+      { value: '430 kg', label: 'Competition Total' },
+      { value: '2x', label: 'Podium Finishes' },
+    ],
+    portraitUrl:
+      'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg',
+    portraitAlt: 'Athlete training with a loaded barbell',
+  },
+
+  story: {
+    sectionLabel: 'My Story',
+    title: 'Built through phases, setbacks, and rebuilding.',
+    paragraphs: [
+      'I was a very active kid growing up. Basketball, cricket, and jump rope were a huge part of my life, and movement always felt natural to me. But after COVID and during my bachelor\u2019s years, my health, routine, and body started slipping in a way I could not ignore.',
+      'That was the point where I decided to rebuild from the ground up. I started with home workouts and a structured fat-loss phase, taking my bodyweight from 71.5 kg down to 62.5 kg. Later, I joined a gym, focused on body recomposition, and slowly built lean muscle back up to 67.5 kg.',
+      'When I moved to Thailand, life changed again. New stress, new routines, and inconsistency pushed my bodyweight up to around 79\u201380 kg. On top of that, I dealt with knee pain, ankle mobility issues, squat depth problems, hip flexor issues, piriformis syndrome, and QL spasms.',
+      'I rebuilt again through structured training and eventually stepped onto the powerlifting platform. In 2025, I competed twice in the under-74 kg class and placed 3rd in both meets, finishing with a 145 kg squat, 90 kg bench, 195 kg deadlift, and a 430 kg total.',
+      'That journey is why I coach the way I do now. I understand fat loss, muscle gain, setbacks, mobility limitations, and what it takes to build yourself back with structure and patience.',
+    ],
+    timeline: [
+      {
+        title: 'Athletic Foundation',
+        period: 'Childhood',
+        description:
+          'Basketball, cricket, and high-volume jump rope built my early relationship with movement and discipline.',
+      },
+      {
+        title: 'The Reset',
+        period: 'Post-COVID',
+        description:
+          'Started rebuilding with home workouts and a structured fat-loss phase.',
+      },
+      {
+        title: 'Fat Loss to Rebuild',
+        period: 'First Major Transformation',
+        description:
+          'Dropped from 71.5 kg to 62.5 kg, then rebuilt lean muscle up to 67.5 kg through gym training and body recomposition.',
+      },
+      {
+        title: 'Setback and Weight Regain',
+        period: 'Thailand Transition',
+        description:
+          'Weight climbed to 79\u201380 kg during a stressful period with inconsistent routines and changing environments.',
+      },
+      {
+        title: 'Injuries and Adaptation',
+        period: 'Recovery Phase',
+        description:
+          'Worked through knee pain, ankle mobility issues, squat depth limitations, hip flexor problems, piriformis syndrome, and QL spasms.',
+      },
+      {
+        title: 'Competitive Comeback',
+        period: '2025',
+        description:
+          'Competed twice in the under-74 kg class, placed 3rd in both meets, and totaled 430 kg.',
+      },
+    ],
+  },
+
+  services: {
+    sectionLabel: 'What I Help With',
+    intro:
+      'Right now, I focus on helping beginners and intermediates rebuild with structure, clarity, and realistic progress.',
+    items: [
+      {
+        title: 'Custom Training Program',
+        description:
+          'A structured 4\u20136 week training program built around your goal \u2014 fat loss, muscle gain, body recomposition, or beginner strength.',
+        bullets: [
+          'Goal-based training split',
+          'Exercise selection and progression',
+          'Form and execution notes',
+          'A structure you can follow consistently',
+        ],
+      },
+      {
+        title: '1-on-1 Coaching',
+        description:
+          'For people who want more guidance, accountability, and direct feedback on training and nutrition.',
+        bullets: [
+          'Training guidance and accountability',
+          'Nutrition and calorie management support',
+          'Mobility-aware adjustments',
+          'Direct communication and progress check-ins',
+        ],
+      },
+    ],
+    note:
+      'Currently focused on helping beginners and intermediates rebuild with better structure and consistency.',
+  },
+
+  whoFor: {
+    sectionLabel: 'Is This For You?',
+    title: 'Honest about who I can and can\u2019t help.',
+    forList: {
+      heading: 'Who this is for',
+      items: [
+        'Beginners who want a clear, structured place to start',
+        'Intermediates stuck in random routines with no progression',
+        'People rebuilding after a break, stress, or weight regain',
+        'Lifters who want to get stronger with body recomposition',
+        'Anyone who prefers practical nutrition over extreme diets',
+      ],
+    },
+    notForList: {
+      heading: 'Who this is not for',
+      items: [
+        'Advanced athletes needing sport-specific peaking plans',
+        'People looking for medical rehab or injury diagnosis',
+        'Anyone wanting overnight results or crash protocols',
+        'Clients unwilling to train consistently for 8\u201312 weeks',
+      ],
+    },
+  },
+
+  proof: {
+    sectionLabel: 'Real-World Proof',
+    title: 'Numbers from my own rebuild.',
+    items: [
+      {
+        label: 'Fat Loss',
+        value: '\u22129 kg',
+        context: 'Cut from 71.5 kg to 62.5 kg through structured training and nutrition.',
+      },
+      {
+        label: 'Lean Rebuild',
+        value: '+5 kg',
+        context: 'Rebuilt from 62.5 kg to 67.5 kg with body-recomposition focus.',
+      },
+      {
+        label: 'Setback',
+        value: '79\u201380 kg',
+        context: 'Regained weight in Thailand, then rebuilt again through consistent training.',
+      },
+      {
+        label: 'Powerlifting',
+        value: '430 kg',
+        context: 'Competition total in the under-74 kg class, 3rd place in two meets.',
+      },
+    ],
+  },
+
+  results: {
+    sectionLabel: 'Athlete Profile',
+    intro:
+      'These numbers are not just PRs. They represent rebuilding through inconsistency, setbacks, injuries, and long-term discipline.',
+    stats: [
+      { label: 'Squat', value: '145 kg' },
+      { label: 'Bench', value: '90 kg' },
+      { label: 'Deadlift', value: '195 kg' },
+      { label: 'Total', value: '430 kg' },
+      { label: 'Weight Class', value: 'Under 74 kg' },
+      { label: 'Placings', value: '3rd \u00d7 2' },
+    ],
+    body:
+      'I am still early in the sport, but I take pride in doing things properly \u2014 showing up, staying patient, and building strength the honest way.',
+    cta: { label: 'Talk to Me About Training', href: '#contact' },
+  },
+
+  approach: {
+    sectionLabel: 'How I Coach',
+    intro:
+      'My coaching is built around structure, not random motivation. I want your training to make sense on paper and in real life.',
+    cards: [
+      {
+        title: 'Practical Training Structure',
+        description:
+          'Clear exercise selection, progression, and weekly planning so you know what to do and why you are doing it.',
+      },
+      {
+        title: 'Nutrition That Fits Real Life',
+        description:
+          'Practical calorie awareness, protein-first eating, and simple food choices that are sustainable, not extreme.',
+      },
+      {
+        title: 'Progression Over Random Workouts',
+        description:
+          'A good plan should build over time. I care more about consistency, execution, and adjustment than doing something flashy for one week.',
+      },
+      {
+        title: 'Rebuild-Aware Coaching',
+        description:
+          'If you are coming back from inconsistency, stress, mobility issues, or setbacks, I understand that phase personally.',
+      },
+    ],
+  },
+
+  artifacts: {
+    sectionLabel: 'How I Structure Programs',
+    intro:
+      'I like systems that are simple, clear, and easy to follow. Here are examples of how I think about programming and nutrition.',
+    items: [
+      {
+        title: 'Training Program Sample',
+        description:
+          'Structured days, clear exercise selection, rep ranges, rest times, and coaching notes to make execution easier.',
+        buttonLabel: 'See Program Sample',
+        previewLabel: 'Program PDF Preview',
+      },
+      {
+        title: 'Progression Strategy',
+        description:
+          'Progressive overload, deload logic, and practical adjustment rules for missed workouts, fatigue, travel, and setbacks.',
+        buttonLabel: 'See Progression Logic',
+        previewLabel: 'Progression Plan Preview',
+      },
+      {
+        title: 'Nutrition Reference',
+        description:
+          'Simple high-protein food references, meal ideas, portion guidance, and realistic calorie-aware options.',
+        buttonLabel: 'See Nutrition Guide',
+        previewLabel: 'Nutrition Guide Preview',
+      },
+    ],
+    footnote:
+      'Examples shown are for structure and education. Full coaching is adapted to the individual.',
+  },
+
+  testimonials: {
+    sectionLabel: 'What People Say',
+    title: 'Real words from people I have coached.',
+    items: [
+      {
+        name: 'Arjun M.',
+        context: 'Beginner, 6 months in',
+        quote:
+          'I went from random YouTube workouts to actually understanding what I was doing. The program was simple, but it worked \u2014 I got stronger every week and finally started seeing the shape I wanted.',
+      },
+      {
+        name: 'Priya S.',
+        context: 'Post-pregnancy rebuild',
+        quote:
+          'Teja understood that I was coming back from a long break and built something I could actually stick to. No extreme diet, no crushing workouts \u2014 just consistent progress and honest feedback.',
+      },
+      {
+        name: 'Rohit K.',
+        context: 'Intermediate lifter',
+        quote:
+          'Best thing was the progression logic. I always knew what to do next, and when I missed a week or traveled, he adjusted the plan instead of blaming me.',
+      },
+    ],
+  },
+
+  freeGuide: {
+    sectionLabel: 'Free Resource',
+    title: 'Protein & Calories Cheat Sheet.',
+    description:
+      'A one-page reference I use with new clients. Protein targets, simple food swaps, and a calorie framework you can actually follow.',
+    bullets: [
+      'Daily protein targets by bodyweight',
+      'High-protein foods and serving sizes',
+      'A simple 4-step calorie framework',
+      'No spam, no fluff \u2014 just the page',
+    ],
+    guideTitle: 'Protein & Calories Cheat Sheet',
+    guideSubtitle: 'One-page PDF, free download',
+    buttonLabel: 'Download the Guide',
+    guideHref: '/guides/protein-calories-cheat-sheet.pdf',
+  },
+
+  faq: {
+    sectionLabel: 'Questions',
+    items: [
+      {
+        question: 'Who is this coaching for?',
+        answer:
+          'This is for beginners and intermediates who want help with fat loss, muscle gain, body recomposition, and building a stronger routine.',
+      },
+      {
+        question: 'Do I need a gym?',
+        answer:
+          'Not always. A gym helps, but I can also guide people starting from simpler setups depending on the goal.',
+      },
+      {
+        question: 'Can beginners work with me?',
+        answer:
+          'Yes. Beginners usually benefit the most from a clear structure and a practical plan.',
+      },
+      {
+        question: 'Do you help with nutrition too?',
+        answer:
+          'Yes \u2014 mainly calorie management, protein targets, meal structure, and practical food choices.',
+      },
+      {
+        question: 'Do you provide medical rehab?',
+        answer:
+          'No. I am not a medical provider. My coaching is training- and nutrition-focused, with awareness of mobility and setbacks from personal experience.',
+      },
+      {
+        question: 'How do I get started?',
+        answer:
+          'Message me directly with your goal, current routine, and biggest struggle, and we can talk from there.',
+      },
+    ],
+  },
+
+  contact: {
+    sectionLabel: 'Let\u2019s Talk',
+    title: 'Start with a short conversation.',
+    body:
+      'WhatsApp is the fastest way to reach me \u2014 I usually reply within a day. Tell me where you are now and what you want to change.',
+    promptTitle: 'When you message me, include:',
+    prompts: [
+      'Your current goal',
+      'Your training experience',
+      'Your biggest challenge right now',
+    ],
+    buttons: [
+      { label: 'WhatsApp', href: 'https://wa.me/', kind: 'whatsapp' as const },
+      {
+        label: 'Instagram',
+        href: 'https://instagram.com/tejalifts_',
+        kind: 'instagram' as const,
+      },
+      { label: 'Email', href: 'mailto:hello@example.com', kind: 'email' as const },
+    ],
+  },
+
+  footer: {
+    disclaimer:
+      'This website shares educational training and nutrition guidance and does not replace medical advice, diagnosis, or treatment.',
+    copyright: '\u00a9 2026 Sai Teja Vaidya',
+  },
+};
+
+export type SiteContent = typeof siteContent;
